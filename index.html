@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+			rel="stylesheet"
+			integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>My Landing Page</title>
+	</head>
+	<body>
+		<nav>
+			<div class="logo">
+				<img
+					src="https://randomuser.me/api/portraits/women/12.jpg"
+					alt="user"
+				/>
+			</div>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Contact Me</a></li>
+			</ul>
+		</nav>
+
+		<header>
+			<button id="toggle" class="toggle">
+				<i class="fa fa-bars fa-2x"></i>
+			</button>
+
+			<h1>랜딩페이지 튜토리얼</h1>
+
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi,
+				recusandae!
+			</p>
+
+			<button class="cta-btn" id="open">회원가입</button>
+		</header>
+
+		<div class="container">
+			<h2>나중에</h2>
+			<p>
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+				Molestias illum cumque quas maiores aut magnam quam dolor et
+				ipsam inventore.
+			</p>
+			<p>
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
+				blanditiis.
+			</p>
+
+			<h2>필요할 때</h2>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+				nihil laudantium, voluptatem accusantium veritatis aspernatur
+				doloremque voluptates rerum illum unde ex nisi quasi consequatur
+				animi quaerat velit quos excepturi. Repellat.
+			</p>
+
+			<h2>내용 넣으면 됨</h2>
+
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+				ratione nesciunt. Corrupti nemo labore quo corporis provident
+				laudantium ipsam consequatur unde quos, excepturi optio
+				reprehenderit debitis similique! Dolorem sed in nemo quidem,
+				itaque ab quibusdam nulla optio adipisci quae eligendi maxime
+				explicabo saepe dolores molestias tenetur, laudantium possimus
+				ratione. Similique, consectetur! Sunt qui saepe dolor distinctio
+				totam, tempora incidunt eveniet recusandae ipsa architecto
+				fugit. Temporibus quod vero praesentium rem maxime.
+			</p>
+		</div>
+
+		<div class="modal-container" id="modal">
+			<div class="modal">
+				<button class="close-btn" id="close">
+					<i class="fa fa-times"></i>
+				</button>
+				<div class="modal-header">
+					<h3>Sign Up</h3>
+				</div>
+				<div class="modal-content">
+					<p>Register with us to get offers, support and more</p>
+					<form class="modal-form">
+						<div>
+							<label for="name">Name</label>
+							<input
+								type="text"
+								id="name"
+								class="form-input"
+								placeholder="Enter Name"
+							/>
+						</div>
+						<div>
+							<label for="email">Email</label>
+							<input
+								type="text"
+								id="email"
+								class="form-input"
+								placeholder="Enter Email"
+							/>
+						</div>
+						<div>
+							<label for="password">Password</label>
+							<input
+								type="text"
+								id="password"
+								class="form-input"
+								placeholder="Enter Password"
+							/>
+						</div>
+						<div>
+							<label for="password2">Confirm password</label>
+							<input
+								type="text"
+								id="password2"
+								class="form-input"
+								placeholder="Confirm Password"
+							/>
+						</div>
+						<input
+							type="submit"
+							value="Submit"
+							class="submit-btn"
+						/>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<script src="index.js"></script>
+	</body>
+</html>
